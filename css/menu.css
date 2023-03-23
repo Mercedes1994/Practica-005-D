@@ -8,3 +8,10 @@
     background-color:darksalmon;
     margin-top: 200px;
 }
+
+.tam{
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+}
+
