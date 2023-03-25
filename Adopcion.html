@@ -1,52 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-
-<body>
-
-  <a href="Inicio.html" target="_blank">Inicio</a>
-
-  <br>
-  <br>
-  
-<img src="IMAGENES/full hd.jpg" width="1300" height="400" alt="Sin imagen">
-<h2 style="color: rgba(195, 0, 255, 0.549);text-align: center;">Formulario de adopción</h2>
-
-<br>
-<br>
-
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">Nombre completo  </label>
-    <input type="text" id="fname" name="firstname" placeholder="Ingresa tu nombre">
-
-    <label for="lname">Rut</label>
-    <input type="text" id="lname" name="lastname" placeholder="Ingresa tu rut">
-
-    <label for="lname">Correo</label>
-    <input type="text" id="lname" name="lastname" placeholder="Ingresa tu correo">
-
-   
-
-    <label for="subject">Comentario</label>
-    <textarea id="subject" name="subject" placeholder="Cuentanos sobre ti..." style="height:200px"></textarea>
-
-    <input type="submit" value="Enviar">
-  </form>
-</div>
-
-</body>
 <style>
   body {
     background-color: rgba(192, 227, 241, 0.425);
   }
+
+  img {
+    border-radius: 8px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #08c4b1;
+  }
+
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #8be3eccf;
+  }
+
+  .active {
+    background-color: #08c4b1;
+  }
+
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: cursive;
+  }
+
+  img {
+    border-radius: 8px;
+  }
+</style>
+</head>
+
+<body>
+
+  <ul>
+
+    <li><a class="active" href="inicio.html">Inicio</a></li>
+    <li><a href="Nosotros.html">Nosotros</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="Adopcion.html">Adopción</a></li>
+    <li><a href="Ubicacion.html">Ubicación</a></li>
+
+  </ul>
   </style>
+
+  <body>
+
+    <img src="IMAGENES/amigos.jpg" width="1200" height="350" alt="Sin imagen">
+    <br>
+    <br>
+    <h1>Formulario de adopción</h1>
+
+    <br>
+    <br>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">Nombre completo </label>
+        <input type="text" id="fname" name="firstname" placeholder="Ingresa tu nombre">
+
+        <label for="lname">Rut</label>
+        <input type="text" id="lname" name="lastname" placeholder="Ingresa tu rut">
+
+        <label for="lname">Correo</label>
+        <input type="text" id="lname" name="lastname" placeholder="Ingresa tu correo">
+
+
+
+        <label for="subject">Comentario</label>
+        <textarea id="subject" name="subject" placeholder="Cuentanos sobre ti..." style="height:200px"></textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+
+  </body>
+
   </head>
 
-  
+
 </html>
