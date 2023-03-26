@@ -17,82 +17,135 @@
    body {
       background-color: rgba(192, 227, 241, 0.425);
    }
+
+   img {
+      border-radius: 8px;
+   }
+
+   h1 {
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-family: cursive;
+      justify-content: center;
+   }
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #08c4b1;
+   }
+
+   li {
+      float: left;
+      border-right: 1px solid #bbb;
+   }
+
+   li:last-child {
+      border-right: none;
+   }
+
+   li a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+   }
+
+   li a:hover:not(.active) {
+      background-color: #8be3eccf;
+   }
+
+   .active {
+      background-color: #08c4b1;
+   }
 </style>
-</head>
-</style>
-<link rel="shortcut icon" href="IMAGENES/new.png">
-</head>
+
 
 <body>
-   <a href="inicio.html" target="_blank">Inicio</a>
+   <ul> <!--menú-->
 
-   <div class="container">
+      <li><a class="active" href="inicio.html">Inicio</a></li>
+      <li><a href="Nosotros.html">Nosotros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="Adopcion.html">Adopción</a></li>
+      <li><a href="Ubicacion.html">Ubicación</a></li>
+
+   </ul>
+   
+   <link rel="shortcut icon" href="IMAGENES/new.png">
+   </head>
+
+   <body>
+      <div class="container">
+         <!-- Fila -->
+         <div class="row">
+            <!-- Columna -->
+            <div class="col-md-12" style="text-align: center;">
+               <h1> Gatos en adopción</h1>
+               <p>Te invitamos a ser parte de esta comunidad de adopción.</p>
+               <h3>Nuestros Gatos que buscan familia</h3>
+            </div>
+         </div>
+
+         <body>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-12" style="text-align: center;">
+               <img src="IMAGENES/poly.jpg" width="160" height="150" alt="sin imagen" class="tam">
+            </div>
+      </div>
       <!-- Fila -->
-      <div class="row">
+      <div class="row" style="text-align: center;">
+         <div class="col-md-12 col-sm-12">
+            <a href="poly.html" target="_blank">Poly</a>
+         </div>
+
+
+         <br>
+         <br>
+
+         <div class="col-md-12" style="text-align: center;">
+            <img src="IMAGENES/Luna.jpg" width="160" height="150" alt="sin imagen" class="tam">
+         </div>
+      </div>
+      <!-- Fila -->
+      <div class="row" style="text-align: center;">
          <!-- Columna -->
-         <div class="col-md-12" style="text-align: center;">
-            <h1> Gatos en adopción</h1>
-            <p>Te invitamos a ser parte de esta comunidad de adopción.</p>
-            <h3>Nuestros Gatos que buscan familia</h3>
+         <div class="col-md-12 col-sm-12">
+            <a href="Luna.html" target="_blank">Luna</a>
          </div>
-      </div>
 
-      <body>
-         <br>
          <br>
          <br>
          <div class="col-md-12" style="text-align: center;">
-            <img src="IMAGENES/poly.jpg" width="160" height="150" alt="sin imagen" class="tam">
+            <img src="IMAGENES/Pongo.jpg" width="160" height="150" alt="sin imagen" class="tam">
          </div>
-   </div>
-   <!-- Fila -->
-   <div class="row" style="text-align: center;">
-      <div class="col-md-12 col-sm-12">
-         <a href="poly.html" target="_blank">Poly</a>
       </div>
+      <!-- Fila -->
+      <div class="row" style="text-align: center;">
+         <!-- Columna -->
+         <div class="col-md-12 col-sm-12">
+            <a href="Pongo.html" target="_blank">Pongo</a>
+
+         </div>
 
 
-      <br>
-      <br>
+         <br>
+         <br>
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
 
-      <div class="col-md-12" style="text-align: center;">
-         <img src="IMAGENES/Luna.jpg" width="160" height="150" alt="sin imagen" class="tam">
-      </div>
-   </div>
-   <!-- Fila -->
-   <div class="row" style="text-align: center;">
-      <!-- Columna -->
-      <div class="col-md-12 col-sm-12">
-         <a href="Luna.html" target="_blank">Luna</a>
-      </div>
-
-      <br>
-      <br>
-      <div class="col-md-12" style="text-align: center;">
-         <img src="IMAGENES/Pongo.jpg" width="160" height="150" alt="sin imagen" class="tam">
-      </div>
-   </div>
-   <!-- Fila -->
-   <div class="row" style="text-align: center;">
-      <!-- Columna -->
-      <div class="col-md-12 col-sm-12">
-         <a href="Pongo.html" target="_blank">Pongo</a>
-
-      </div>
-
-
-      <br>
-      <br>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-         crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-         crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-         crossorigin="anonymous"></script>
-
-</body>
+   </body>
 
 </html>
